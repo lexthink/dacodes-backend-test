@@ -494,3 +494,10 @@ HTTP 200 OK
 ```
 
 ---
+
+## Resources
+
+- **Subjects** : `http://localhost:8000/api/subjects/`    ***[view details](subjects.md)***.
+- **Courses** : `http://localhost:8000/api/courses/`    ***[view details](courses.md)***.
+- **Questions** : `http://localhost:8000/api/questions/`    ***[view details](questions.md)***.
+- **Answers** : `http://localhost:8000/api/answers/`    ***[view details](answers.md)***.

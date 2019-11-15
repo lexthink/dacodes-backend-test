@@ -359,3 +359,10 @@ HTTP 204 No Content
 ```
 
 ---
+
+## Resources
+
+- **Subjects** : `http://localhost:8000/api/subjects/`    ***[view details](subjects.md)***.
+- **Courses** : `http://localhost:8000/api/courses/`    ***[view details](courses.md)***.
+- **Lessons** : `http://localhost:8000/api/lessons/`    ***[view details](lessons.md)***.
+- **Answers** : `http://localhost:8000/api/answers/`    ***[view details](answers.md)***.

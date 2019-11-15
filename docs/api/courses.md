@@ -346,3 +346,10 @@ HTTP 200 OK
 ```
 
 ---
+
+## Resources
+
+- **Subjects** : `http://localhost:8000/api/subjects/`    ***[view details](subjects.md)***.
+- **Lessons** : `http://localhost:8000/api/lessons/`    ***[view details](lessons.md)***.
+- **Questions** : `http://localhost:8000/api/questions/`    ***[view details](questions.md)***.
+- **Answers** : `http://localhost:8000/api/answers/`    ***[view details](answers.md)***.
