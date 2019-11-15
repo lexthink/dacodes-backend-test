@@ -1,0 +1,505 @@
+[
+    {
+        "model":"elearning.subject",
+        "pk":1,
+        "fields":{
+            "title":"Python 3 Programming Specialization"
+        }
+    },
+    {
+        "model":"elearning.course",
+        "pk":1,
+        "fields":{
+            "subject":1,
+            "order":0,
+            "title":"Python Basics",
+            "overview":"This course introduces the basics of Python 3, including conditional execution and iteration as control structures, and strings and lists as data structures. You'll program an on-screen Turtle to draw pretty pictures. You'll also learn to draw reference diagrams as a way to reason about program executions, which will help to build up your debugging skills. The course has no prerequisites. It will cover Chapters 1-9 of the textbook \"Fundamentals of Python Programming,\" which is the accompanying text (optional and free) for this course.\r\n\r\nThe course is for you if you're a newcomer to Python programming, if you need a refresher on Python basics, or if you may have had some exposure to Python programming but want a more in-depth exposition and vocabulary for describing and reasoning about programs.\r\n\r\nThis is the first of five courses in the Python 3 Programming Specialization."
+        }
+    },
+    {
+        "model":"elearning.course",
+        "pk":2,
+        "fields":{
+            "subject":1,
+            "order":1,
+            "title":"Python Functions, Files, and Dictionaries",
+            "overview":"This course introduces the dictionary data structure and user-defined functions. You\u2019ll learn about local and global variables, optional and keyword parameter-passing, named functions and lambda expressions. You\u2019ll also learn about Python\u2019s sorted function and how to control the order in which it sorts by passing in another function as an input. For your final project, you\u2019ll read in simulated social media data from a file, compute sentiment scores, and write out .csv files. It covers chapters 10-16 of the textbook \u201cFundamentals of Python Programming,\u201d which is the accompanying text (optional and free) for this course.\r\n\r\nThe course is well-suited for you if you have already taken the \"Python Basics\" course and want to gain further fundamental knowledge of the Python language. Together, both courses are geared towards newcomers to Python programming, those who need a refresher on Python basics, or those who may have had some exposure to Python programming but want a more in-depth exposition and vocabulary for describing and reasoning about programs.\r\n\r\nThis is a follow-up to the \"Python Basics\" course (course 1 of the Python 3 Programming Specialization), and it is the second of five courses in the specialization."
+        }
+    },
+    {
+        "model":"elearning.course",
+        "pk":3,
+        "fields":{
+            "subject":1,
+            "order":2,
+            "title":"Data Collection and Processing with Python",
+            "overview":"This course teaches you to fetch and process data from services on the Internet. It covers Python list comprehensions and provides opportunities to practice extracting from and processing deeply nested data. You'll also learn how to use the Python requests module to interact with REST APIs and what to look for in documentation of those APIs. For the final project, you will construct a \u201ctag recommender\u201d for the flickr photo sharing site.\r\n\r\nThe course is well-suited for you if you have already taken the \"Python Basics\" and \"Python Functions, Files, and Dictionaries\" courses (courses 1 and 2 of the Python 3 Programming Specialization). If you are already familiar with Python fundamentals but want practice at retrieving and processing complex nested data from Internet services, you can also benefit from this course without taking the previous two.\r\n\r\nThis is the third of five courses in the Python 3 Programming Specialization."
+        }
+    },
+    {
+        "model":"elearning.course",
+        "pk":4,
+        "fields":{
+            "subject":1,
+            "order":3,
+            "title":"Python Classes and Inheritance",
+            "overview":"This course introduces classes, instances, and inheritance. You will learn how to use classes to represent data in concise and natural ways. You'll also learn how to override built-in methods and how to create \"inherited\" classes that reuse functionality. You'll also learn about how to design classes. Finally, you will be introduced to the good programming habit of writing automated tests for their own code.\r\n\r\nThe course is best-suited for you if you are already familiar with Python fundamentals, which are covered in the \"Python Basics\" and \"Python Functions, Files, and Dictionaries\" courses (courses 1 and 2 of the Python 3 Programming Specialization). It is optional to have taken the \"Data Collection and Processing with Python\" course (course 3 of the specialization), but knowledge of retrieving and processing complex nested data is helpful.\r\n\r\nThis is the fourth of five courses in the Python 3 Programming Specialization."
+        }
+    },
+    {
+        "model":"elearning.course",
+        "pk":5,
+        "fields":{
+            "subject":1,
+            "order":4,
+            "title":"Python Project: pillow, tesseract, and opencv",
+            "overview":"This course will walk you through a hands-on project suitable for a portfolio. You will be introduced to third-party APIs and will be shown how to manipulate images using the Python imaging library (pillow), how to apply optical character recognition to images to recognize text (tesseract and py-tesseract), and how to identify faces in images using the popular opencv library. By the end of the course you will have worked with three different libraries available for Python 3 to create a real-world data-analysis project.\r\n\r\nThe course is best-suited for learners who have taken the first four courses of the Python 3 Programming Specialization. Learners who already have Python programming skills but want to practice with a hands-on, real-world data-analysis project can also benefit from this course.\r\n\r\nThis is the fifth and final course in the Python 3 Programming Specialization."
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":1,
+        "fields":{
+            "course":1,
+            "order":0,
+            "title":"General Introduction",
+            "description":"In week one you will be introduced to programming in python through lectures and the Runestone textbook - an interactive online textbook built for this course. By the end of the module, you will have run your first python program, and learned how to draw images by writing a program.",
+            "question_order":null,
+            "pass_score":3
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":5,
+        "fields":{
+            "course":2,
+            "order":0,
+            "title":"Files and CSV Output",
+            "description":"In week one the video lectures and the Runestone textbook will introduce you to the idea of incorporating files into your programs as an additional source of data. You will learn how to read from a file, write to a file, and how to work with the .csv data format.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":6,
+        "fields":{
+            "course":2,
+            "order":1,
+            "title":"Dictionaries and Dictionary Accumulation",
+            "description":"In week two the video lectures and the Runestone textbook will focus on a new data type, dictionaries. You will be introduced to the mechanics of dictionaries and then get practice using them in accumulation patterns, both to build a dictionary using the pattern as well as find the best, or worst, result using the pattern.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":7,
+        "fields":{
+            "course":2,
+            "order":2,
+            "title":"Functions and Tuples",
+            "description":"In week three you will be introduced to the construction of functions. Up to this point, you have used functions in the programs before, but have not had a chance to write your own functions, including how to define a function, how to incorporate parameters, how to return data from a function, the local or global scope of variables, and potential side effects that could occur from function execution. Finally, we look at tuples more in depth, and how automatic packing and unpacking of tuples can be used in functions and in for loops.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":8,
+        "fields":{
+            "course":2,
+            "order":3,
+            "title":"More Iteration and Advanced Functions",
+            "description":"In week four the video lectures and the Runestone textbook will outline a more advanced iteration mechanism, the while loop. You will be introduced to using it when getting feedback from users, as well as applying it to the turtle module to draw images. Additionally, you will also be exposed to more advanced function concepts such as the idea of parameters being optional, not required, and anonymous functions using lambda.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":9,
+        "fields":{
+            "course":2,
+            "order":4,
+            "title":"Sorting",
+            "description":"In week five the videos and Runestone textbook will detail how to sort python objects - both the basics and more advanced forms of sorting for dictionaries and how to break a tie (if that occurs). The final course assessment will be a project that asks you to read fake, auto-generated data from a social media site to analyze social media post sentiments. You will submit a csv file as well as images of graphs that demonstrate your findings.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":10,
+        "fields":{
+            "course":3,
+            "order":0,
+            "title":"Nested Data and Nested Iteration",
+            "description":"In week one the video lectures and activities from the Runestone textbook will cover more complex data structures. By the end of this week, you will have learned how to process json formatted data, traverse nested data using nested iteration, and extract values from nested data.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":11,
+        "fields":{
+            "course":3,
+            "order":1,
+            "title":"Map, Filter, and List Comprehensions",
+            "description":"In week two you will be learning more advanced forms of accumulation. By the end of the week, you will have learned how to use the map and filter functions in combination with functions to transform or filter out data and store the resulting data in a new object. You will have also learned how to accumulate data using a list comprehension.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":12,
+        "fields":{
+            "course":3,
+            "order":2,
+            "title":"Internet APIs",
+            "description":"In week three you will learn how to request data from the internet using Application Programming Interfaces (APIs). By the end of the week, you will have learned how to access data from a few APIs, cache data that you have requested, and also learned how to read and work with other APIs that were not touched on in the module.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":13,
+        "fields":{
+            "course":4,
+            "order":0,
+            "title":"Classes",
+            "description":"In this module, lectures and activities from the Runestone textbook will cover more complex data structures. By the end of this week, you will have learned how to process json formatted data, traverse nested data using nested iteration, and extract values from nested data.",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":14,
+        "fields":{
+            "course":4,
+            "order":1,
+            "title":"Inheritance",
+            "description":"",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":15,
+        "fields":{
+            "course":4,
+            "order":2,
+            "title":"Unit Testing and Exceptions",
+            "description":"",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":16,
+        "fields":{
+            "course":5,
+            "order":0,
+            "title":"The Python Imaging Library",
+            "description":"",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":17,
+        "fields":{
+            "course":5,
+            "order":1,
+            "title":"Tesseract and Optical Character Recognition",
+            "description":"",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.lesson",
+        "pk":18,
+        "fields":{
+            "course":5,
+            "order":2,
+            "title":"Computer Vision with OpenCV",
+            "description":"",
+            "question_order":null,
+            "pass_score":0
+        }
+    },
+    {
+        "model":"elearning.question",
+        "pk":1,
+        "fields":{
+            "lesson":1,
+            "content":"True or False? In Python 3, the maximum value for an integer is 2^63 - 1?",
+            "explanation":"In Python 2, there was an internal limit to how large an integer value could be. But that limit was removed in Python 3.\r\n\r\nThis means there is no explicitly defined limit, but the amount of available address space forms a practical limit depending on the machine Python runs on.",
+            "answer_order":null,
+            "allow_multiple_answers":false,
+            "match_all_answers":false,
+            "score":1
+        }
+    },
+    {
+        "model":"elearning.question",
+        "pk":2,
+        "fields":{
+            "lesson":1,
+            "content":"How would you express the hexadecimal value a5 as a base-16 integer constant in Python?",
+            "explanation":"",
+            "answer_order":null,
+            "allow_multiple_answers":false,
+            "match_all_answers":false,
+            "score":1
+        }
+    },
+    {
+        "model":"elearning.question",
+        "pk":3,
+        "fields":{
+            "lesson":1,
+            "content":"How would you express the constant floating-point value 3.2 \u00d7 10-12 in Python:",
+            "explanation":"We\u2019re looking for a constant value, so an expression like 3.2 * 10 ** -12 would not be a valid answer in this case.",
+            "answer_order":null,
+            "allow_multiple_answers":false,
+            "match_all_answers":false,
+            "score":1
+        }
+    },
+    {
+        "model":"elearning.question",
+        "pk":4,
+        "fields":{
+            "lesson":1,
+            "content":"Which of the following are valid ways to specify the string literal foo'bar in Python:",
+            "explanation":"",
+            "answer_order":null,
+            "allow_multiple_answers":true,
+            "match_all_answers":true,
+            "score":1
+        }
+    },
+    {
+        "model":"elearning.question",
+        "pk":5,
+        "fields":{
+            "lesson":1,
+            "content":"Which of the following is valid?",
+            "explanation":"All the statements will execute successfully but at the cost of reduced readability.",
+            "answer_order":null,
+            "allow_multiple_answers":false,
+            "match_all_answers":false,
+            "score":1
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":1,
+        "fields":{
+            "question":1,
+            "content":"True",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":2,
+        "fields":{
+            "question":1,
+            "content":"False",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":3,
+        "fields":{
+            "question":2,
+            "content":"10100101",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":4,
+        "fields":{
+            "question":2,
+            "content":"0xa5",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":5,
+        "fields":{
+            "question":2,
+            "content":"165",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":6,
+        "fields":{
+            "question":3,
+            "content":"3.2e-12",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":7,
+        "fields":{
+            "question":3,
+            "content":"3.2 * 10 ** -12",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":8,
+        "fields":{
+            "question":4,
+            "content":"'foo'bar'",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":9,
+        "fields":{
+            "question":4,
+            "content":"\"foo'bar\"",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":10,
+        "fields":{
+            "question":4,
+            "content":"'foo''bar'",
+            "correct":false
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":11,
+        "fields":{
+            "question":4,
+            "content":"'foo\\'bar'",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":12,
+        "fields":{
+            "question":4,
+            "content":"\"\"\"foo'bar\"\"\"",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":13,
+        "fields":{
+            "question":5,
+            "content":"_a = 1",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":14,
+        "fields":{
+            "question":5,
+            "content":"__a = 1",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":15,
+        "fields":{
+            "question":5,
+            "content":"__str__ = 1",
+            "correct":true
+        }
+    },
+    {
+        "model":"elearning.answer",
+        "pk":16,
+        "fields":{
+            "question":5,
+            "content":"none of the mentioned",
+            "correct":false
+        }
+    },
+    {
+        "model":"students.user",
+        "pk":1,
+        "fields":{
+            "password":"pbkdf2_sha256$150000$JYofOoJIUh7i$JSwN0ExewW6RTXbvLKr+x291T8Y2yqYU+QWQFEt8rWg=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"teacher",
+            "first_name":"",
+            "last_name":"",
+            "email":"teacher@mail.org",
+            "is_staff":true,
+            "is_active":true,
+            "date_joined":"2019-11-13T06:33:37.211Z",
+            "is_student":false,
+            "is_teacher":true,
+            "groups":[
+
+            ],
+            "user_permissions":[
+
+            ]
+        }
+    },
+    {
+        "model":"students.user",
+        "pk":2,
+        "fields":{
+            "password":"pbkdf2_sha256$150000$Y1REDaOKF5Hs$7gIh8WVdtknH7ABsLSC/m7fbOXk4PK3yBgJxVAjJ13g=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"student",
+            "first_name":"",
+            "last_name":"",
+            "email":"student@mail.org",
+            "is_staff":true,
+            "is_active":true,
+            "date_joined":"2019-11-13T06:34:17.973Z",
+            "is_student":true,
+            "is_teacher":false,
+            "groups":[
+
+            ],
+            "user_permissions":[
+
+            ]
+        }
+    },
+    {
+        "model":"students.enrolledcourse",
+        "pk":11,
+        "fields":{
+            "user":2,
+            "course":1,
+            "is_approved":false
+        }
+    }
+]
