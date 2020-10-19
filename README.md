@@ -1,4 +1,4 @@
-# lexthink/backend
+# lexthink/dacodes-backend-test
 
 ## Requirements
 
@@ -12,11 +12,11 @@
 
 ## Installation
 
-Install it by `git clone https://bitbucket.org/lexthink/backend.git` or download zip file.
+Install it by `git clone https://github.com/lexthink/dacodes-backend-test` or download zip file.
 
 ```shell
-$ git clone https://bitbucket.org/lexthink/backend.git
-$ cd backend
+$ git clone https://github.com/lexthink/dacodes-backend-test
+$ cd dacodes-backend-test
 $ virtualenv venv && source venv/bin/activate # optional
 $ pip install -r requirements.txt
 $ python manage.py migrate
