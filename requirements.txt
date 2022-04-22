@@ -1,4 +1,4 @@
-Django==2.2.7
+Django==2.2.28
 django-dotenv==1.4.2
 django-positions==0.6.0
 djangorestframework==3.10.3
