@@ -1,6 +1,6 @@
 Django==2.2.7
 django-dotenv==1.4.2
 django-positions==0.6.0
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 djangorestframework-simplejwt==4.3.0
 drf-writable-nested==0.5.1
